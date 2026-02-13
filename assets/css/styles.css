@@ -63,7 +63,7 @@ h3 { font-size: 24px; }
 
 .backgroundImage {
 	order: 2;
-	background-image: url(../img/my-website-pfp.png);
+	background-image: url(../img/my-website-pfp.jpg);
 	width: 548px;
 	height: 550px;
 	background-size: cover;
