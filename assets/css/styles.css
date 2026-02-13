@@ -10,7 +10,7 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px 20px;
-	background-color: none;
+	background-color: transparent;
 }
 
 .logo {
@@ -20,7 +20,7 @@ body {
 	color: black;
 }
 
-.website-links span{
+.website-links span {
 	display: flex;
 	justify-content: center;
 	gap: 20px;
@@ -43,3 +43,27 @@ body {
 	width: 31px;
 	height: 31px;
 }
+
+.hello {
+	display: flex;
+	align-items: center;
+	gap: 190px;
+}
+
+.text {
+	margin-left: 15px;
+	font-weight: bold;
+	color: black;
+}
+
+h1 { font-size: 36px; }
+h2 { font-size: 96px; }
+h3 { font-size: 24px; }
+
+.backgroundImage {
+	background-image: url(../img/);
+	width: 548px;
+	height: 550px;
+	background-size: cover;
+}
+	
