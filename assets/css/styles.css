@@ -51,6 +51,7 @@ body {
 }
 
 .text {
+	order: 1;
 	margin-left: 15px;
 	font-weight: bold;
 	color: black;
@@ -61,7 +62,8 @@ h2 { font-size: 96px; }
 h3 { font-size: 24px; }
 
 .backgroundImage {
-	background-image: url(../img/my-website-pfp);
+	order: 2;
+	background-image: url(../img/my-website-pfp.png);
 	width: 548px;
 	height: 550px;
 	background-size: cover;
