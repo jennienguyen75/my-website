@@ -1,5 +1,45 @@
 /* styles.css */
 
-* {
-	font-family: Arial;
+body {
+	background-color: #FFFCDC;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.nav-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	background-color: none;
+}
+
+.logo {
+	margin-left: 15px;
+	font-size: 40px;
+	font-weight: bold;
+	color: black;
+}
+
+.website-links span{
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	font-size: 24px;
+	color: #0158AC;
+}
+
+.website-links span a:hover {
+	color: white;
+}
+
+/*social-media container*/
+.social-media {
+	margin-right: 20px;
+	display: inline-block;
+}
+
+/*social-media icons*/
+.social-media img {
+	width: 31px;
+	height: 31px;
 }
